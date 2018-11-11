@@ -1,0 +1,173 @@
+body {
+  font-family: Georgia;
+  font-style: italic;
+  background-color: #faf3e6;
+  text-align: center;
+}
+
+.top_menu_index_link a{
+  color: black;
+}
+
+.top_menu_grace_hopper_link a{
+  color: black;
+}
+
+.top_menu_ada_lovelace_link a{
+  color: black;
+}
+
+.top_menu_katherine-johnson_link a{
+color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+border: 2px solid #DAF7A6;
+background-color: #DAF7A6;
+border-radius: 20px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #c4cad0;
+  border: 2px solid #a4969b;
+  border-radius: 25px;
+  color: blue;
+}
+
+nav ul li a:hover {
+  background-color: green;
+}
+
+h1 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+header {
+  border: 2px solid #c4cad0;
+  border-radius: 20px;
+  margin: 2px;
+}
+
+h2 {
+  color: green;
+  font-size: 20px;
+}
+
+.ada_lovelace_text_link {
+list-style-type: none;
+}
+
+.grace_hopper_text_link {
+list-style-type: none;
+}
+
+.katherine-johnson_text_link {
+list-style-type: none;
+}
+
+
+h3 {
+  color: blue;
+  font-size: 16px;
+}
+
+img {
+  width: 25%;
+  border-radius: 80px;
+}
+
+blockquote {
+  font-style: oblique;
+}
+
+#long-bio h3{
+  margin-top: 50px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ada_lovelace_text_link {
+  float: left;
+  width: 33.33%;
+}
+
+.grace_hopper_text_link {
+  float: left;
+  width: 33.33%;
+}
+
+.katherine-johnson_text_link {
+  float: left;
+  width: 33.33%;
+}
+
+
+footer {
+border: 2px solid #DAF7A6;
+background-color: #DAF7A6;
+border-radius: 20px;
+padding-top: 1px;
+padding-bottom: 1px;
+margin: 2px;
+}
+
+@media screen and (min-width: 800px) {
+
+nav ul li {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.bio-sections {
+width: 100%;
+clear: both;
+}
+
+.box {
+  float: left;
+  width: 50%;
+}
+
+.box:nth-of-type(3) {
+  clear: left;
+}
+
+.box p {
+  padding: 5%;
+}
+
+#bs5 {
+  clear: both;
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer {
+clear: both;
+}
+
+}
